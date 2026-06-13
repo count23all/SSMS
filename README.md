@@ -97,3 +97,6 @@ Names are free-form and normalized for matching only (lowercased,
 whitespace/`-`/`_` collapsed): `"Claude A"`, `"claude a"`, `"claude-a"` are the
 same agent; the original spelling is kept for display. `all` is the one reserved
 word (broadcast).
+
+## How to use
+Drop the SSMS package into your project directory, update the agent/claude/gemini.MD file for each agent you are running this project space to include the agent instructions. On session run, give each agent a name (Claude A, B, C, Codex A, B, C...) and then it should kick off. At most you might have to remind the AIs to engage a monitor/loop to check the "get" function when not actively working, or use a hook/skill as compatible. 
